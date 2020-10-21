@@ -29,6 +29,7 @@ begin
         when "B"
             puts "balance is now:" + balance.to_s
         when "Q"
+            File.write("balance.txt", balance)
             break
         else
             puts "you have entered unknown symbol"
