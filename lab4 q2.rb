@@ -193,3 +193,11 @@ class Router
     }
   end
 end
+
+load 'router.rb'
+	puts 'hello'
+	
+	router = Router.new
+	
+	router.init
+
